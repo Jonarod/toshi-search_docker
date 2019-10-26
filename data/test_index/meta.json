@@ -1,0 +1,39 @@
+{
+  "segments": [
+    {
+      "segment_id": "15a74c70-e1c9-42d4-bb28-81a568fad6e1",
+      "max_doc": 1,
+      "deletes": null
+    }
+  ],
+  "schema": [
+    {
+      "name": "test_text",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "tokenizer": "default"
+        },
+        "stored": true
+      }
+    },
+    {
+      "name": "test_i64",
+      "type": "i64",
+      "options": {
+        "indexed": true,
+        "stored": true
+      }
+    },
+    {
+      "name": "test_u64",
+      "type": "u64",
+      "options": {
+        "indexed": true,
+        "stored": true
+      }
+    }
+  ],
+  "opstamp": 2
+}
